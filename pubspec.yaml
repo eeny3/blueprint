@@ -1,0 +1,100 @@
+name: one_trade
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Architecture packages
+  elementary: ^1.5.0
+
+  # Dependency injection
+  get_it: ^7.2.0
+  injectable: ^1.5.4
+
+  # Networking
+  http: ^0.13.5
+  dio: ^4.0.6
+  retrofit: ^3.3.1
+
+  url_launcher: ^6.1.9
+
+  flutter_svg: ^1.1.6
+  fvm: ^2.3.1
+  flutter_screenutil: ^5.6.0
+
+  # Firebase
+  firebase_core: ^2.2.0
+  firebase_crashlytics: ^3.0.5
+  firebase_messaging: ^14.1.0
+  sliding_up_panel: ^2.0.0+1
+  seafarer: ^0.1.1
+  connectivity_plus: ^3.0.2
+  device_preview: ^1.1.0
+  json_serializable: ^6.5.4
+  intl: ^0.17.0
+
+  # Classes and helper functions that support JSON code generation via the `json_serializable`
+  # package.
+  # See the following page: https://pub.dev/packages/json_annotation
+  json_annotation: ^4.4.0
+  freezed_annotation: ^2.2.0
+  # Country picker for phone number codes
+  country_pickers: ^2.0.0
+  dropdown_button2: ^1.9.2
+  # Cash
+  shared_preferences: ^2.0.15
+dev_dependencies:
+  # flutter build apk --release --flavor prod -t lib/main-prod.dart
+  # DI flutter packages pub run build_runner watch --delete-conflicting-outputs
+  # flutter clean && flutter pub get && flutter packages pub run build_runner watch --delete-conflicting-outputs
+  # flutter pub run build_runner build
+  #
+  # example use fvm:
+  # fvm flutter packages pub run build_runner watch --delete-conflicting-outputs
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash: ^2.2.16
+  injectable_generator: ^1.5.5
+  retrofit_generator: 4.2.0
+  build_runner: ^2.3.2
+  build_config: ^1.1.1
+  freezed: ^2.2.1
+  json_annotation: ^4.6.0
+  dart_code_metrics: ^5.0.1
+  flutter_lints: ^1.0.0
+  freezed_annotation: ^2.2.0
+  # Automatically generate code for converting to and from JSON by annotating Dart classes.
+  # See the following page: https://pub.dev/packages/json_serializable
+  json_serializable: ^6.1.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/locale/
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Exo2
+      fonts:
+        - asset: assets/fonts/Exo2-Regular.ttf
+        - asset: assets/fonts/Exo2-Light.ttf
+        - asset: assets/fonts/Exo2-Medium.ttf
+        - asset: assets/fonts/Exo2-SemiBold.ttf
+        - asset: assets/fonts/Exo2-Bold.ttf
+        - asset: assets/fonts/Exo2-ExtraBold.ttf

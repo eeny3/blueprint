@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.onetrade.one_trade",
+  "variantName": "prodDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1000001,
+      "versionName": "1.0.0",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

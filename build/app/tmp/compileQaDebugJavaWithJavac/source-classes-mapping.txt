@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/onetrade/one_trade/BuildConfig.java
+ com.onetrade.one_trade.BuildConfig

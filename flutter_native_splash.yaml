@@ -1,0 +1,9 @@
+flutter_native_splash:
+  image: assets/images/meros.png
+  color: "#00A3FF"
+  android_disable_fullscreen: true
+  android: true
+  ios: true
+android_12:
+  image: assets/images/meros.png
+  color: "#00A3FF"
